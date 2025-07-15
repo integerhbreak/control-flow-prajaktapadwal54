@@ -1,11 +1,11 @@
-# Find the largest among three numbers , get input from user using input() function
-num1 = ____   # Enter first number
-num2 = ____   # Enter second number
-num3 = ____   # Enter third number
+# Find the largest among three numbers, get input from user using input() function
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
 
-if ____ and ____:
+if num1 >= num2 and num1 >= num3:
     print("The largest number is", num1)
-elif ____ and ____:
+elif num2 >= num1 and num2 >= num3:
     print("The largest number is", num2)
 else:
     print("The largest number is", num3)
